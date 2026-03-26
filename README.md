@@ -43,7 +43,6 @@ The project is configured to run both the frontend and backend concurrently from
 1. **Start both Client & Server:**
 
 ```bash
- cd packages/server
  npm run dev
 ```
 
