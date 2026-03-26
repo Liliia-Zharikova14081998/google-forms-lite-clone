@@ -1,0 +1,160 @@
+.container {
+  max-width: 770px;
+  margin: 64px auto 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.formHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  border-radius: 8px;
+  border-top: 10px solid var(--primary-purple);
+  background-color: var(--bg-white);
+  padding: 24px;
+  box-shadow: var(--shadow);
+}
+
+.titleInput {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: 0;
+  border: none;
+  border-bottom: 1px solid #dadce0;
+}
+
+.titleInput:hover,
+.titleInput:focus,
+.titleInput:active {
+  border-bottom-color: var(--primary-purple);
+}
+
+.formInput {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #dadce0;
+  padding: 8px 0;
+  background-color: transparent;
+  outline: none;
+  transition: border-bottom-color 0.3s ease;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.formInput:hover,
+.formInput:focus,
+.formInput:active {
+  border-bottom: 2px solid var(--primary-purple);
+}
+
+.questionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.questionCard {
+  background-color: var(--bg-white);
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.questionRow {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.selectType {
+  padding: 12px 16px;
+  font-size: 14px;
+  color: var(--text-color);
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  background-color: var(--bg-white);
+  cursor: pointer;
+  min-width: 150px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.selectType:hover {
+  border-color: var(--primary-purple);
+}
+
+.formOption {
+  padding: 12px;
+  background-color: var(--white);
+  color: var(--text-main);
+  font-size: 14px;
+}
+
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.optionItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.removeBtn {
+  color: var(--text-secondary);
+  background: none;
+  font-size: 14px;
+}
+
+.removeBtn:hover {
+  color: var(--error-text);
+}
+
+.addOptionBtn {
+  background: none;
+  color: var(--primary-purple);
+  font-weight: 500;
+  text-align: left;
+  padding: 8px 0;
+  width: fit-content;
+}
+
+.addQuestionBtn {
+  background-color: var(--bg-white);
+  color: var(--primary-purple);
+  border: 1px solid #dadce0;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 500;
+  align-self: flex-start;
+  margin-top: 10px;
+  box-shadow: var(--shadow);
+}
+
+.saveBtn {
+  background-color: var(--primary-purple);
+  color: var(--bg-white);
+  padding: 10px 24px;
+  border-radius: 4px;
+  font-weight: 500;
+  align-self: flex-end;
+  margin-top: 20px;
+  box-shadow: var(--shadow);
+}
+
+.saveBtn:hover,
+.saveBtn:focus,
+.saveBtn:active {
+  background-color: var(--primary-hover);
+}
