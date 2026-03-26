@@ -21,8 +21,8 @@ This project is organized as a monorepo to manage both client and server efficie
 1. **Clone the repository:**
 
    ```bash
-   git clone <your-repository-url>
-   cd <your-repository-name>
+   git clone [https://github.com/Liliia-Zharikova14081998/google-forms-lite-clone.git]
+   cd google-forms-lite-clone
 
    ```
 
